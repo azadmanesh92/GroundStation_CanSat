@@ -38,6 +38,9 @@
     <Reference Include="GMap.NET.WindowsForms">
       <HintPath>lib\GMap.NET.WindowsForms.dll</HintPath>
     </Reference>
+    <Reference Include="PrimaryFlightDisplay">
+      <HintPath>lib\PrimaryFlightDisplay.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -96,6 +99,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-connected-52 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-satellite-signal-52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-satellite-40.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
